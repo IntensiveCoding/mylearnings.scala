@@ -12,9 +12,11 @@ package com.mylearnings.scala
  * At the time of instantiating a class, some memory space will
  * get allotted to hold the image of that object's state i.e., the
  * contents of its variables.
+ * 
+ * Class Name - Unlike Java, the file name and class name can be different.
  *  
  * @author Intensive Coding (intensive.coding@gmail.com)
  */
-class ClassExample {
+class ClassExampleOne {
   
 }
