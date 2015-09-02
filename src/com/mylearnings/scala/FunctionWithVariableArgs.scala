@@ -6,7 +6,7 @@ package com.mylearnings.scala
  * 
  * This allows clients to pass variable length argument lists to the function.
  * 
- * @author senthil.nayagan
+ * @author Intensive Coding (intensive.coding@gmail.com)
  */
 object FunctionWithVariableArgs {
 

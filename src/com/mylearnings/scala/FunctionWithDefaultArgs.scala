@@ -7,7 +7,7 @@ package com.mylearnings.scala
  * a function call, in which case the corresponding argument will be 
  * filled in with the default.
  * 
- * @author senthil.nayagan
+ * @author Intensive Coding (intensive.coding@gmail.com)
  */
 object FunctionWithDefaultArgs {
   

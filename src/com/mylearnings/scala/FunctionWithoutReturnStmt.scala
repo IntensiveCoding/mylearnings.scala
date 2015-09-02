@@ -3,7 +3,7 @@ package com.mylearnings.scala
 /**
  * Like 'void' in Java, we can use 'Unit' to void return
  * 
- * @author senthil.nayagan
+ * @author Intensive Coding (intensive.coding@gmail.com)
  */
 object FunctionWithoutReturnStmt {
 

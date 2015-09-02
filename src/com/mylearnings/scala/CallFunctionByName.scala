@@ -12,7 +12,7 @@ package com.mylearnings.scala
  * A call-by-name mechanism passes a code block (function) to the callee and each time 
  * the callee accesses the parameter, the code block is executed and the value is calculated.
  * 
- * @author senthil.nayagan
+ * @author Intensive Coding (intensive.coding@gmail.com)
  */
 object CallFunctionByName {
 

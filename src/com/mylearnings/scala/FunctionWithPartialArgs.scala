@@ -7,7 +7,7 @@ package com.mylearnings.scala
  *  This gives us the convenience of binding some arguments and leaving 
  *  the rest to be filled in later.
  *   
- *  @author senthil.nayagan
+ *  @author Intensive Coding (intensive.coding@gmail.com)
  */
 object FunctionWithPartialArgs {
   

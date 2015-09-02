@@ -10,7 +10,7 @@ package com.mylearnings.scala
  * The syntax is simply that each argument is preceded by a parameter 
  * name and an equals sign.
  * 
- * @author senthil.nayagan
+ * @author Intensive Coding (intensive.coding@gmail.com)
  */
 object FunctionWithNamedArgs {
 
