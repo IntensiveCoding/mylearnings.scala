@@ -18,17 +18,21 @@ object CallFunctionByName {
 
   //  Main method
   def main(args: Array[String]) {
-    // Invoking the Call-By-Name method called 'methodOne'
+    
+    // Invoking the Call-By-Name method called 'methodOne' by passing methodTwo as argument
     methodOne(methodTwo());
   }
   
-  def methodTwo() = {
+  // This method simply returns a string value 
+  def methodTwo(): String = {
     println("Inside 'methodTwo'")
     "Method - 2";
   }
   
-  // Call-By-Name method takes another function as parameter  
-  def methodOne (m: => String) = {
+  // Call-By-Name method takes another function as parameter
+  // Unlike pass-by-value or pass-by-reference, the arguments to this method i.e., methodTwo() function
+  // will not be evaluated until it's called within our function
+  def methodOne (m: => String): Unit = {
     println("Inside 'methodOne'")
     println("Parameter: " + m)
   }

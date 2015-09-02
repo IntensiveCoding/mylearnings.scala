@@ -1,7 +1,7 @@
 package com.mylearnings.scala
 
 /**
- * Anonymous function is a lightweight syntax for defining a function 
+ * Anonymous function is a lightweight/short syntax for defining a function 
  * where it doesn't have a name by default, but you can give them a 
  * name by binding them to a variable.
  * 
@@ -15,9 +15,11 @@ object AnonymousFunction {
   
   // Main method
   def main(args: Array[String]): Unit = {
-    var square = (x: Int) => x * x
+    val square = (x: Int) => x * x
+    val add = (firstVal: Int, secondVal: Int) => firstVal + secondVal
     
-    println(square(10))
+    println("Square: " + square(10))
+    println("Add: " + add(10, 20))
   }
   
 }
